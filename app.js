@@ -32,46 +32,46 @@
 
 
 // 4
-let mindX = [];
-let nhanVien = {}
-nhanVien = { name: "Nam", old: 18, price: "20000", position: "Sam" }
-mindX.push(nhanVien);
-nhanVien = { name: "Nam", old: 18, price: "20000", position: "Sam" }
-mindX.push(nhanVien);
-nhanVien = { name: "Nam", old: 18, price: "20000", position: "Sam" }
-mindX.push(nhanVien);
-console.log(mindX);
+// let mindX = [];
+// let nhanVien = {}
+// nhanVien = { name: "Nam", old: 18, price: "20000", position: "Sam" }
+// mindX.push(nhanVien);
+// nhanVien = { name: "Nam", old: 18, price: "20000", position: "Sam" }
+// mindX.push(nhanVien);
+// nhanVien = { name: "Nam", old: 18, price: "20000", position: "Sam" }
+// mindX.push(nhanVien);
+// console.log(mindX);
 
-while (true) {
-    let userInput = prompt("Nhap C, R, U, D");
-    if (userInput === "C") {
-        let newName = (prompt("Enter new Name"));
-        let newOld = (prompt("Enter new Old"));
-        let newPrice = (prompt("Enter new Price"));
-        let newPosition = (prompt("Enter new Position"));
+// while (true) {
+//     let userInput = prompt("Nhap C, R, U, D");
+//     if (userInput === "C") {
+//         let newName = (prompt("Enter new Name"));
+//         let newOld = (prompt("Enter new Old"));
+//         let newPrice = (prompt("Enter new Price"));
+//         let newPosition = (prompt("Enter new Position"));
 
-        nhanVien.name = newName;
-        nhanVien.old = newOld;
-        nhanVien.price = newPrice;
-        nhanVien.position = newPosition;
-        mindX.push(nhanVien);
-        for (let i = 0; i <= mindX.length - 1; i++) {
-            console.log(`${mindX[i]}`);
-        }
-    } else if (userInput === "R") {
-        for (let i = 0; i <= mindX.length - 1; i++) {
-            nhanVien = mindX[i];
-            for (let key in nhanVien) {
-                console.log(key, nhanVien[key]);
-            }
-        }
-    } else if (userInput === "U") {
+//         nhanVien.name = newName;
+//         nhanVien.old = newOld;
+//         nhanVien.price = newPrice;
+//         nhanVien.position = newPosition;
+//         mindX.push(nhanVien);
+//         for (let i = 0; i <= mindX.length - 1; i++) {
+//             console.log(`${mindX[i]}`);
+//         }
+//     } else if (userInput === "R") {
+//         for (let i = 0; i <= mindX.length - 1; i++) {
+//             nhanVien = mindX[i];
+//             for (let key in nhanVien) {
+//                 console.log(key, nhanVien[key]);
+//             }
+//         }
+//     } else if (userInput === "U") {
 
-    } else if (userInput === "D") {
+//     } else if (userInput === "D") {
 
-    } else if (userInput === "E") {
-        break;
-    }
-}
+//     } else if (userInput === "E") {
+//         break;
+//     }
+// }
 
 
